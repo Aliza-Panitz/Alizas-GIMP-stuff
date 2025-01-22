@@ -1,3 +1,6 @@
+; Aliza Panitz, 2025
+; v1.0.0
+
 (define (color->hex-string color)
   (let ((r (car color))
         (g (cadr color))

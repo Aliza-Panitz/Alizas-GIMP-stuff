@@ -1,3 +1,6 @@
+; Aliza Panitz, 2025
+; v1.0.0
+
 (define (script-fu-insert-transparent-layer-internal image drawable new-layer-name)
   (let* ((image-width (car (gimp-image-width image)))
          (image-height (car (gimp-image-height image)))
